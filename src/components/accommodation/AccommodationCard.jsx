@@ -65,7 +65,7 @@ const AccommodationCard = ({ accommodation }) => {
           </p>
 
           {/* ราคาส่วนลด */}
-          <div className="mb-2">
+          {/* <div className="mb-2">
             {hasDiscount ? (
               <div className="d-flex justify-content-between align-items-center">
                 <div>
@@ -91,11 +91,11 @@ const AccommodationCard = ({ accommodation }) => {
                 {originalPrice.toLocaleString()} บาท
               </span>
             )}
-          </div>
+          </div> */}
 
-          <small className="text-muted" style={{ fontSize: "0.85rem" }}>
+          {/* <small className="text-muted" style={{ fontSize: "0.85rem" }}>
             รวมค่าธรรมเนียมและภาษีแล้ว
-          </small>
+          </small> */}
         </div>
 
         {/* ปุ่มด้านล่างเต็มความกว้าง */}

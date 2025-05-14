@@ -1,8 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import AuthService from '../../../services/auth/auth.service';
-// เราสามารถนำเข้าไอคอนโดยตรงจาก react-bootstrap-icons (หากติดตั้งแล้ว)
-// import { Envelope, Lock, Eye, EyeSlash, CheckCircleFill, ExclamationTriangleFill } from 'react-bootstrap-icons';
 
 const LoginPage = () => {
   const navigate = useNavigate();
@@ -159,17 +157,19 @@ const LoginPage = () => {
       
       {/* Success Toast */}
       <div className="position-fixed bottom-0 end-0 p-3" style={{ zIndex: 11 }}>
-        <div id="successToast" className="toast align-items-center text-white bg-success border-0" role="alert" aria-live="assertive" aria-atomic="true">
+        <div id="successToast" className="toast align-items-center text-dark bg-light border-0" role="alert" aria-live="assertive" aria-atomic="true">
           <div className="d-flex">
             <div className="toast-body">
               <i className="bi bi-check-circle-fill me-2"></i>
               เข้าสู่ระบบสำเร็จ! กำลังนำคุณไปยังหน้าหลัก...
             </div>
-            <button type="button" className="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+            <button type="button" className="btn-close btn-close-dark me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
         </div>
       </div>
     </div>
+
+    
   );
 };
 

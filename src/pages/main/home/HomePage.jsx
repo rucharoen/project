@@ -1,6 +1,6 @@
 import Accommodation from "../../../components/accommodation/Accommodation";
 import Promotion from "../../../components/accommodation/Promotion";
-import Activity from "../../../components/activity/activity";
+import Activity from "../../../components/activity/Activity";
 import HeroImage from "../../../components/heroImage/HeroImage";
 
 const HomePage = () => {

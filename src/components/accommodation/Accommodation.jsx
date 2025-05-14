@@ -33,7 +33,7 @@ const Accommodation = () => {
                 <>
                     <div>
                         <h3 className="fw-bold mb-4 text-center">
-                            <span className="border-bottom border-3 border-primary pb-1">โปรโมชั่น</span>
+                            <span className="border-bottom border-3 border-primary pb-1">โปรโมชัน</span>
                         </h3>
                     </div>
                     {accommodations.length > 0 ? (

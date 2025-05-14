@@ -34,8 +34,9 @@ const Activity = () => {
                 <>
                     <div className="text-center">
                         <h3 className="fw-bold mb-4">
-                            <span className="border-bottom border-3 border-primary pb-1">เพลิดเพลินกับกิจกรรมชายหาดของเรา</span>
+                            <span className="border-bottom border-3 border-primary pb-1">สนุกกับกิจกรรม</span>
                         </h3>
+                        <p>แขกจะรู้สึกเหมือนอยู่บ้านเมื่อได้ใช้สิ่งอำนวยความสะดวกและกิจกรรมต่างๆ ของรีสอร์ท</p>
                     </div>
                     {activities.length > 0 ? (
                         activities.map((activity) => (

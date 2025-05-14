@@ -1,0 +1,89 @@
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background: #f0fdff; /* สีพื้นหลังตามภาพ */
+  padding: 20px 0;
+}
+
+.carousel-wrapper {
+  overflow: hidden;
+}
+
+.blog-type {
+  display: flex;
+  gap: 15px;
+  will-change: transform;
+}
+
+.type-head {
+  min-width: 411px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.type-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.type-container-room {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name-type-room {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.room-size {
+  font-size: 14px;
+  color: #333;
+}
+
+.type-more a {
+  padding: 8px 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  color: #2c4edb;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.type-more a:hover {
+  background-color: #e8f0ff;
+}
+
+.controls {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none;
+}
+
+.controls button {
+  pointer-events: auto;
+  background: white;
+  border-radius: 50%;
+  border: none;
+  width: 64px;
+  height: 64px;
+  font-size: 24px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
